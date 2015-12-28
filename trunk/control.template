@@ -1,0 +1,10 @@
+Package: failsafefs
+Section: Utilities
+Priority: optional
+Version: 1.0.SVNREVISION
+Architecture: i686
+Depends: libfuse (>= 2.6), libgcrypt, libc6-i686 (>=2.4), fuse-utils (>=2.6), libstdc++6
+Maintainer: David Volgyes  <david.volgyes@gmail.com>
+Description: FailSafe Filesystem
+ This is a proof-of-concept filesystem.
+ Homepage: http://code.google.com/p/failsafefs/
